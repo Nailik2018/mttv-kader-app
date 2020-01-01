@@ -7,13 +7,15 @@ import { PlayersOverviewComponent } from './players-overview/players-overview.co
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CreateNewPlayerComponent } from './create-new-player/create-new-player.component';
+import { NaviComponent } from './navi/navi.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PlayersOverviewComponent,
     PageNotFoundComponent,
-    CreateNewPlayerComponent
+    CreateNewPlayerComponent,
+    NaviComponent
   ],
   imports: [
     BrowserModule,

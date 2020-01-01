@@ -7,10 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mttv-kader-app';
-
-  navbarOpen = false;
-  toggleNavbar() {
-      this.navbarOpen = !this.navbarOpen;
-  }
-
 }
